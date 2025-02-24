@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #0e0000;
+    color: white;
+}
+
+header {
+    padding: 30px;
+    background: #380000;
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: px;
+    width: 700px;
+    height: 1000px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.3s ease-in-out;
+    background-image: linear-gradient(rgb(63, 0, 0), rgb(102, 0, 0));
+    font-size:50px;
+    box-shadow: 0 0 50px 10px#520000;
+    border-style: groove;
+    border-color: #520000;
+    font-size: 50%;
+}
+.SECTION2 {
+    text-align: center;
+}
+.card{
+    background-image: url(REDHEARTSTROKES.png);
+
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(50);
+}
+
+.fade-in {
+    animation: fadeIn 2s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.slide-up{
+    scale: 0.8;
+    opacity: 0.3;
+    font-size: 0px;
+}
+.slide-up:hover{
+    scale: 1;
+    cursor: pointer;
+    opacity: 1;
+    font-size: 40px;
+}

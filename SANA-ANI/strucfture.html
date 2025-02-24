@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="design.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1 class="fade-in">FXS</h1>
+        <p class="fade-in">Graphic Designer</p>
+    </header>
+    
+    <section class="container">
+        <div class="card slide-up">
+            <h2>About Me</h2>
+            <p>Creative and imaginative designer. experienced in Motion graphics, Photo manipulation, Video Editting, and VFX</p>
+            <br>
+            <h2>BOTH</h2>
+        </div>
+        
+        <div class="card slide-up">
+            <h2>Skills</h2>
+            <ul>
+                <li>Graphic Designer
+                <li>Basic HTML
+                <li>Basic CSS</li>
+            </ul>
+        </div>
+        
+        <div class="card slide-up">
+            <h2>Contact</h2>
+            <p>Email: john.doe@example.com</p>
+            <p>LinkedIn: linkedin.com/in/johndoe</p>
+        </div>
+        <br>
+        <section class="SECTION2">
+            <div class="Card Slide to left">
+                <H1>WORKS</H1>
+            </div>
+        </section>
+
+    
+    </section>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let elements = document.querySelectorAll(".slide-up");
+            elements.forEach(el => {
+                el.classList.add("visible");
+            });
+        });
+    </script>
+</body>
+</html>
